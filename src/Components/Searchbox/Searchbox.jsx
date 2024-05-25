@@ -1,30 +1,32 @@
-import React from 'react' ;
-import searchicon from '../../Assets/searchxs.png'
-import search from '../../Assets/search.png'
-import SearchBoxCards from '../SearchBoxCards/SearchBoxCards';
-import { Services } from '../ServicesData/ServicesDetails';
-
+import React from "react";
+import searchicon from "../../Assets/searchxs.png";
+import search from "../../Assets/search.png";
+import SearchBoxCards from "../SearchBoxCards/SearchBoxCards";
+import { Services } from "../ServicesData/ServicesDetails";
+import './Searchbox.css' ;
 
 function Searchbox() {
   return (
-    <div>
-      <div>
-      <div>
-        <input placeholder='State'></input>
-        <img src={searchicon} alt='Search Icon'/>
+    <div className="searchbox">
+      <div className="form">
+        <div className="innerdiv"> 
+          <input placeholder="State"></input>
+          <img src={searchicon} alt="Search Icon" />
+        </div>
 
-        
+        <div className="innerdiv">
+          <input placeholder="City"></input>
+          <img src={searchicon} alt="Search Icon" />
+        </div>
+        <button>
+          {" "}
+          <img src={search} alt="Search" />
+          Search
+        </button>
       </div>
-
-<div>
-<input placeholder='City'></input>
-        <img src={searchicon} alt='Search Icon'/>
-</div>
-<button> <img  src={search} alt='Search' />SEARCH</button>
-</div>
-<SearchBoxCards services={Services}></SearchBoxCards>
-</div>
-  )
+      <SearchBoxCards services={Services}></SearchBoxCards>
+    </div>
+  );
 }
 
-export default Searchbox ;
+export default Searchbox;
