@@ -1,8 +1,8 @@
-import doctor from '../../assets/doctor.png'
-import lab from '../../assets/lab.png'
-import hospital from '../../assets/hospital1.png'
-import medicalstore from '../../assets/medicalstore.png'
-import ambulance from '../../assets/ambulance.png'
+import doctor from '../../Assets/doctor.png'
+import lab from '../../Assets/lab.png'
+import hospital from '../../Assets/hospital1.png'
+import medicalstore from '../../Assets/medicalstore.png'
+import ambulance from '../../Assets/ambulance.png'
 
 export const Services= [
     {
