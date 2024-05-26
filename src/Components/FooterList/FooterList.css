@@ -1,0 +1,23 @@
+.right
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.lists
+{
+    width: 120px;
+}
+
+.lists>img
+{
+    margin-right: 5px;
+}
+
+@media screen and (max-width:464px) 
+{
+    .lists{
+        width: 200px;
+    }
+}
