@@ -3,21 +3,16 @@ import "./DoctorsCard.css";
 
 function DoctorsCard({ doctor }) {
   return (
-    <div className="doctor-card-container">
+    <div className="container">
       <div className="mainCard">
-      <div className="doctor-image">
         <img src={doctor.image} alt="Doctor" />
       </div>
-      <div className="doctor-content">
+      <div className="content">
         <h3>{doctor.name}</h3>
         <span>{doctor.department}</span>
       </div>
-      </div>
-      
     </div>
   );
 }
 
 export default DoctorsCard;
-
-

@@ -1,0 +1,34 @@
+.navbar
+{
+    background: linear-gradient(to right, var(--gradient-primary) 100%, var(--gradient-secondary) 47%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 10vw;
+}
+
+.dropbutton
+{
+    background-color: var(--gradient-primary);
+    display: none;
+}
+
+.collapse
+{
+    display: block;
+}
+
+@media screen and (max-width:1180px)
+{
+    .dropbutton
+    {
+        display: block;
+        border:0;
+        cursor: pointer;
+    }
+
+    .collapse
+    {
+        display: none;
+    }
+}

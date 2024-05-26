@@ -1,0 +1,86 @@
+.routes
+{
+    font-size: 14px;
+    display: flex;
+}
+
+ul
+{
+    display: flex;
+    column-gap: 40px;
+    list-style: none;
+    font-weight: 400;
+}
+
+.bookings
+{
+    margin-left: 40px;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
+
+li
+{
+    cursor: pointer;
+}
+
+li:hover
+{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:1180px) 
+{
+    .collapseroutes
+    {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .collapse
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul
+    {
+        font-size: 18px;
+        row-gap: 20px;
+        flex-direction: column;
+    }
+
+    .bookings
+    {
+        margin: 0;
+    }
+
+    .navclose
+    {
+        width: 70px;
+        height: 40px;
+        font-size: 14px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--primary-color);
+        position: absolute;
+        right: 20px;
+        top:20px;
+        border: 0;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}

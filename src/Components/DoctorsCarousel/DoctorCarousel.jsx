@@ -1,7 +1,6 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-import "swiper/css";
+
 import "swiper/css/pagination";
 import 'swiper/swiper-bundle.css';
 import { DoctorsData } from "../DoctorsCard/DoctorsData";
@@ -17,11 +16,11 @@ function DoctorCarousel() {
           className="swiper"
           modules={[Pagination]}
           initialSlide={0}
-          spaceBetween={30}
+          spaceBetween={20}
           slidesPerView={4}
           pagination={{ clickable: true }}
         >
-          <div className="swiper">
+          <div className="swiperdiv">
             {DoctorsData?.map((doctor) => (
               <SwiperSlide key={doctor.id}>
                 <DoctorsCard key={doctor.id} doctor={doctor} />

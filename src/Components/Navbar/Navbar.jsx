@@ -1,11 +1,26 @@
-import React from 'react'
+import { useState } from 'react';
+import Logo from '../Logo/Logo';
+import Routes from '../Routes/Routes'; 
+import  './Navbar.css';
+import CollapseNavbar from '../CollapseNavbar/CollapseNavbar';
+import Hamburger from '../Hamburger/Hamburger';
 
-function Navbar() {
-  return (
-    <div>
-      Navbar
-    </div>
-  )
-}
+const Navbar = () =>
+{
+    const [collapse, setCollapse] = useState(false);
 
-export default Navbar
+    return(
+        <div className='navbar'>
+            <Logo/> 
+            {collapse && <CollapseNavbar setCollapse={setCollapse} collapse={collapse}/>}
+            <button className='dropbutton' onClick={()=> setCollapse(!collapse)}>
+                <Hamburger/>
+            </button>
+            <div className='collapse'>
+                <Routes type="navbar"/>
+            </div>
+        </div>
+    )
+} 
+
+export default Navbar;
