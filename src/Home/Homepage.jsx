@@ -6,6 +6,7 @@ import Specialization from '../Components/Specialization/Specialization'
 import DoctorCarousel from '../Components/DoctorsCarousel/DoctorCarousel'
 import PatientCare from '../Components/PatientCare/PatientCare'
 import News from '../Components/News/News'
+import HealthStats from '../Components/HealthStats/HealthStats'
 
 function Homepage() {
   return (
@@ -17,6 +18,7 @@ function Homepage() {
       <DoctorCarousel></DoctorCarousel>
       <PatientCare></PatientCare>
       <News></News>
+      <HealthStats></HealthStats>
     </div>
   )
 }
