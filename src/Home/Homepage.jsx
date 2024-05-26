@@ -7,6 +7,7 @@ import DoctorCarousel from '../Components/DoctorsCarousel/DoctorCarousel'
 import PatientCare from '../Components/PatientCare/PatientCare'
 import News from '../Components/News/News'
 import HealthStats from '../Components/HealthStats/HealthStats'
+import Faq from '../Components/Faq/Faq'
 
 function Homepage() {
   return (
@@ -19,6 +20,7 @@ function Homepage() {
       <PatientCare></PatientCare>
       <News></News>
       <HealthStats></HealthStats>
+      <Faq></Faq>
     </div>
   )
 }
