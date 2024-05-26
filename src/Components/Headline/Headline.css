@@ -1,0 +1,19 @@
+.headline
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    font-size: 14px;
+    min-height: 30px;
+    line-height: 21px;
+    padding: 5px;
+    text-align: center;
+    background-color: #2aa7ff;
+}
+
+p
+{
+    margin: 0;
+}
