@@ -1,4 +1,3 @@
-import React from "react";
 import searchicon from "../../Assets/searchxs.png";
 import search from "../../Assets/search.png";
 import SearchBoxCards from "../SearchBoxCards/SearchBoxCards";
@@ -11,7 +10,7 @@ function Searchbox() {
       <div className="form">
         <div className="innerdiv"> 
           <input placeholder="State"></input>
-          <img src={searchicon} alt="Search Icon" />
+          <img className="search" src={searchicon} alt="Search Icon" />
         </div>
 
         <div className="innerdiv">
@@ -20,7 +19,7 @@ function Searchbox() {
         </div>
         <button>
           {" "}
-          <img src={search} alt="Search" />
+          <img className="search" src={search} alt="Search" />
           Search
         </button>
       </div>

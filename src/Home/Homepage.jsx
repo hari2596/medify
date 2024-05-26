@@ -3,8 +3,8 @@ import Hero from '../Components/HeroSection/Hero'
 import Headline from '../Components/Headline/Headline'
 import OfferCarousel from '../Components/Offer/OfferCarousel'
 import Specialization from '../Components/Specialization/Specialization'
-import './Homepage.css' 
 import DoctorCarousel from '../Components/DoctorsCarousel/DoctorCarousel'
+import PatientCare from '../Components/PatientCare/PatientCare'
 
 function Homepage() {
   return (
@@ -14,6 +14,7 @@ function Homepage() {
       <OfferCarousel></OfferCarousel>
       <Specialization></Specialization>
       <DoctorCarousel></DoctorCarousel>
+      <PatientCare></PatientCare>
     </div>
   )
 }
