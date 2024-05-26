@@ -5,6 +5,7 @@ import OfferCarousel from '../Components/Offer/OfferCarousel'
 import Specialization from '../Components/Specialization/Specialization'
 import DoctorCarousel from '../Components/DoctorsCarousel/DoctorCarousel'
 import PatientCare from '../Components/PatientCare/PatientCare'
+import News from '../Components/News/News'
 
 function Homepage() {
   return (
@@ -15,6 +16,7 @@ function Homepage() {
       <Specialization></Specialization>
       <DoctorCarousel></DoctorCarousel>
       <PatientCare></PatientCare>
+      <News></News>
     </div>
   )
 }
