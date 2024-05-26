@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import 'swiper/swiper-bundle.css';
 import { DoctorsData } from "../DoctorsCard/DoctorsData";
 import DoctorsCard from "../DoctorsCard/DoctorsCard";
 import './DoctorCarousel.css'

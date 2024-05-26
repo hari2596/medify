@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .services {
@@ -29,6 +30,12 @@
   cursor: pointer;
   padding: 10px;
   row-gap: 10px;
+  transition: border 0.3s ease; 
+  outline: none;
+}
+
+.card:focus, .card:hover {
+  border: 1px solid #2aa7ff; 
 }
 
 .current {
