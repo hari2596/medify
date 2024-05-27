@@ -6,6 +6,7 @@ import Homepage from "./Home/Homepage";
 import {BrowserRouter as Router, Routes, Route, Outlet} from 'react-router-dom'
 import Headline from "./Components/Headline/Headline";
 import MyBookings from "./Booking/MyBooking";
+import FindDoc from "./FindDoctor/FindDoc";
 
 
 function Medify()
@@ -30,7 +31,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Medify/>}>
           <Route path='' element={<Homepage/>}/>
-          {/* <Route path='doctors' element={<FindDoc/>}/> */}
+          <Route path='doctors' element={<FindDoc/>}/>
           <Route path='mybookings' element={<MyBookings/>}/>
         </Route>
       </Routes>
