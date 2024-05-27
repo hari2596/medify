@@ -17,7 +17,7 @@ const LeftNavigation = () => {
     <div>
       {!isBegin && (
         <LeftArrow 
-          className="navigation left" 
+          className="navigation leftNavigation" 
           onClick={() => swiper.slidePrev()} 
         />
       )}

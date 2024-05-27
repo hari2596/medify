@@ -4,7 +4,7 @@ import './CollapseNavbar.css'
 const CollapseNavbar = ({setCollapse, collapse}) =>
 {
     return(
-        <div className='container'>
+        <div className='container-nav'>
             <Routes setCollapse={setCollapse} collapse={collapse}/>
         </div>
     )

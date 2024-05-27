@@ -1,0 +1,17 @@
+.container-booking
+{
+    margin-bottom: 20px;
+}
+
+.swiperdiv
+{
+    width: 80%;
+}
+
+@media screen and (max-width:1180px)
+{
+    .container
+    {
+        width: 70vw;
+    }
+}

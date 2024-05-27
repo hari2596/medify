@@ -9,6 +9,7 @@ function SearchBoxCards({ services }) {
       <p className='header'>You may be looking for </p>
       <div className='services'>
         {services.map((item) => (
+          
           <div
             className={item.id === active ? "card current" : "card"}
             key={item.id}

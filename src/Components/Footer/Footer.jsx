@@ -14,15 +14,15 @@ const thirdColumndata = FooterData.slice(10);
 const Footer = () =>
 {
     return(
-        <div className='footer'>
+        <div className='footer-medify'>
 
-            <div className='upperfooter'>
-                <div className='left'>
+            <div className='upperfooter-medify'>
+                <div className='left-medify'>
                     <div>
                         <img src={logo} alt="Medify"/>
                     </div>
 
-                    <div className='social'>
+                    <div className='social-medify'>
                         <img src={facebook} alt="social"/>
                         <img src={twitter} alt="social"/>
                         <img src={youtube} alt="social"/>
@@ -31,14 +31,14 @@ const Footer = () =>
                     
                 </div>
 
-                <div className='footergroup'>
+                <div className='footergroup-medify'>
                     <FooterList footerdata={fistColumndata}/>
                     <FooterList footerdata={secondColumndata}/>
                     <FooterList footerdata={thirdColumndata}/>
                 </div>
             </div>
 
-            <div className='copyright'>
+            <div className='copyright-medify'>
                 <p>Copyright ©2023 Surya Nursing Home.com. All Rights Reserved</p>
             </div>
 

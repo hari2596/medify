@@ -9,7 +9,7 @@ const Routes = ({ type, setCollapse, collapse }) => {
   };
 
   return (
-    <div className={`collapseroutes routes`}>
+    <div className='routes'>
       {collapse && (
         <button className="navclose" onClick={() => setCollapse(false)}>
           Close

@@ -17,7 +17,7 @@ const RightNavigation = () => {
     <div>
       {!isEnd && (
         <RightArrow 
-          className="navigation right" 
+          className="navigation rightNavigation" 
           onClick={() => swiper.slideNext()} 
         />
       )}

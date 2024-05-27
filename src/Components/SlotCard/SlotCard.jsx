@@ -29,7 +29,7 @@ const SlotCard = ({data, active, setActive, bookingIndex}) =>
     }
 
        return(
-        <div className="container">
+        <div className="container-slot">
             <div onClick={handleClick}> 
                 <p>{data.date}</p>
                 <span>{data.slots}</span>

@@ -4,7 +4,7 @@ import './NewsCard.css' ;
 function NewsCard({ newsdata }) {
   return (
     <div className="newsCard">
-      <div className="newsImage">
+      <div className="news-Image">
         <img src={newsdata.image} alt="Newsimage" />
       </div>
 

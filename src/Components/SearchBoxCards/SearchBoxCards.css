@@ -1,41 +1,43 @@
 .cards {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  height:400px ;
+  
+  margin-bottom: -50px;
 }
 
 .services {
   display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   row-gap: 20px;
   column-gap: 15px;
 }
 
-.card {
-  height: 100%;
+.card-Search {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-color: #fafbfe;
-  min-width: 180px;
+  width: 150px; /* Adjust the width to fit all cards in a single row */
   height: 150px;
   border-radius: 8px;
   color: #abb6c7;
   font-size: 18px;
   cursor: pointer;
   padding: 10px;
-  row-gap: 10px;
-  transition: border 0.3s ease; 
+  margin: 5px; /* Add margin between cards */
+  transition: border 0.3s ease;
   outline: none;
 }
 
-.card:focus, .card:hover {
-  border: 1px solid #2aa7ff; 
+.card:focus,
+.card:hover {
+  border: 1px solid #2aa7ff;
 }
 
 .current {

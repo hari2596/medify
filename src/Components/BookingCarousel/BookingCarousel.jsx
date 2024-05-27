@@ -12,7 +12,7 @@ const BookingCarousel = ({ dates, bookingIndex }) => {
     const [active, setActive] = useState(0);
 
     return (
-        <div className="container">
+        <div className="container-booking">
             <Swiper
                 modules={{ Navigation }}
                 initialSlide={0}

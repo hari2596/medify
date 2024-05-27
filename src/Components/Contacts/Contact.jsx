@@ -7,7 +7,7 @@ import arrow from '../../Assets/arrow.png';
 
 const Contact = () => {
     return (
-        <div className="container">
+        <div className="container-contact">
             <div className="phone1">
                 <img src={phone} alt="phone"/>
                 <img src={app} alt="phone"/>
@@ -16,8 +16,8 @@ const Contact = () => {
                 <img src={phone} alt="phone"/>
                 <img src={app} alt="phone"/>
             </div>
-            <div className="content">
-                <div className="contentheader">
+            <div className="content-contact">
+                <div className="content-header">
                     <h1>Download the <span>Medify</span> App</h1>
                     <img src={arrow} alt="img"/>
                 </div>

@@ -18,7 +18,7 @@ const MyBookings = () => {
 
   
   return (
-    <div className="container">
+    <div className="container-mybooking">
       <Searchbar type="bookings" setSearchHospital={setSearchHospital} />
       <div className='wrapper'>
         {myBookings ? (

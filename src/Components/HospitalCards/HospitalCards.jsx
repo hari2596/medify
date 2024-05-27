@@ -6,7 +6,7 @@ const HospitalCards = ({data, setCurrent, current, index}) =>
 {
 
     return(
-        <div className='main'>
+        <div className='main-card'>
             <HospitalDetail 
                 data={data} 
                 index={index} 

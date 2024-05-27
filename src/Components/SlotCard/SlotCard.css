@@ -1,4 +1,4 @@
-.container>div
+.container-slot>div
 {
     display: flex;
     flex-direction: column;
@@ -11,13 +11,13 @@
     cursor: pointer;
 }
 
-.container>div>p:first-child
+.container-slot>div>p:first-child
 {
     font-weight: 500;
     font-size: 14px;
 }
 
-.container>div>span
+.container-slot>div>span
 {
     color: #01A400;
     font-size: 12px;

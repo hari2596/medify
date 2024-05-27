@@ -3,13 +3,13 @@ import "./DoctorsCard.css";
 
 function DoctorsCard({ doctor }) {
   return (
-    <div className="container">
-      <div className="mainCard">
+    <div className="container-doctor">
+      <div className="mainCard-doctor">
         <img src={doctor.image} alt="Doctor" />
       </div>
-      <div className="content">
+      <div className="content-doctor">
         <h3>{doctor.name}</h3>
-        <span>{doctor.department}</span>
+        <span className="department">{doctor.department}</span>
       </div>
     </div>
   );

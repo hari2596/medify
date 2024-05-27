@@ -1,55 +1,57 @@
-.container {
-  display: flex;
-  flex-direction: column;
+.container-advertise {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  flex-direction: row;
   justify-content: center;
-  width: 320px;
-  padding: 20px;
+  width: 363px;
+  padding: 50px;
   background-color: white;
   border-radius: 8px;
-  height: 300px;
+  height: 268px;
 }
 
-.container > h3 {
+.container-advertise > h4 {
   font-weight: 400;
   font-size: 22px;
 }
 
-.container > h1 {
+.container-advertise > h1 {
   margin-top: 20px;
   margin-top: 20px;
   font-size: 30px;
   text-align: left;
-  color: var(--primary-color);
+  color:  #1B3C74;
+  
   margin: 0;
 }
 
-.container > h1 > span {
+.container-advertise  > h3 {
   color: var(--secondary-color);
 }
 
-.container > span {
+.container-advertise > h3 {
   margin-top: 10px;
   background-color: var(--primary-color);
   border-radius: 8px;
   padding: 5px;
   color: white;
-  width: 200px;
+  width: 300px;
   text-align: center;
 }
 
-.container > h4 {
+.container-advertise > h4 {
   color: var(--primary-color);
   font-size: 20px;
   font-weight: 400;
 }
 
-.container > p {
+.container-advertise > p {
   margin-top: 0;
   font-size: 10px;
 }
 
 @media screen and (max-width: 1180px) {
-  .container {
+  .container-advertise {
     width: 80%;
     display: flex;
     flex-direction: column;

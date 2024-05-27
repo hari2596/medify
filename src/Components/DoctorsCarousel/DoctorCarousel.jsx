@@ -9,13 +9,13 @@ import './DoctorCarousel.css'
 
 function DoctorCarousel() {
   return (
-    <div className="container">
+    <div className="container-carousel">
       <h1>Our Medical Specialist</h1>
-      <div className="wrapper">
+      <div className="wrapper-carousel">
         <Swiper
           className="swiper"
           modules={[Pagination]}
-          initialSlide={0}
+          initialSlide={1}
           spaceBetween={20}
           slidesPerView={4}
           pagination={{ clickable: true }}

@@ -1,4 +1,4 @@
-.container
+.container-hospital
 {
     display: flex;
     padding: 30px;
@@ -9,7 +9,7 @@
     width: 45vw;
 }
 
-.container>img
+.container-hospital>img
 {
     width: 124px;
     height: 124px;
@@ -24,13 +24,13 @@
     margin: 0;
 }
 
-.content
+.content-hospital
 {
     font-size: 10px;
     margin-right: 10px;
 }
 
-.content>h4
+.content-hospital>h4
 {
     color: var(--primary-color);
     font-size: 20px;
@@ -38,7 +38,7 @@
     margin-bottom: 0;
 }
 
-.content>h6
+.content-hospital>h6
 {
     margin-top: 10px;
     margin-bottom: 0;
@@ -46,17 +46,17 @@
     font-weight: 700;
 }
 
-.content>p
+.content-hospital>p
 {
     margin-top: 5px;
 }
 
-.content>img
+.content-hospital>img
 {
     margin-top: 10px;
 }
 
-.contentBottom
+.contentBottom-hospital
 {
     margin-top: 20px;
     display: flex;
@@ -85,7 +85,7 @@
     margin-bottom: 8px;
 }
 
-.footer
+.footer-hospital
 {
     height: 100%;
     display: flex;
@@ -97,12 +97,12 @@
     transform: translateY(60%);
 }
 
-.footer>span
+.footer-hospital>span
 {
     color: #01A400;
 }
 
-.footer>button
+.footer-hospital>button
 {
     width: 180px;
     height: 40px;
@@ -147,7 +147,7 @@
 
 @media screen and (max-width:1180px) 
 {
-    .container
+    .container-hospital
     {
         width: 90%;
     }
@@ -155,11 +155,11 @@
 
 @media screen and (max-width:920px) 
 {
-    .container
+    .container-hospital
     {
         width: 85%;
     }
-    .content
+    .content-hospital
     {
         margin-right: 50px;
     }
@@ -168,7 +168,7 @@
 @media screen and (max-width:780px) 
 {
 
-    .container
+    .container-hospital
     {
         width: 80%;
     }
@@ -179,7 +179,7 @@
         row-gap: 20px;
     }
 
-    .footer
+    .footer-hospital
     {
         margin-bottom: 30px;
     }
@@ -191,7 +191,7 @@
         align-items: flex-start;
     }
 
-    .content
+    .content-hospital
     {
         margin-right: 0;
     }
@@ -200,7 +200,7 @@
 
 @media screen and (max-width:620px) 
 {
-    .container
+    .container-hospital
     {
         width: 80%;
         flex-direction: column;
@@ -210,7 +210,7 @@
 
 @media screen and (max-width:480px) 
 {
-    .container
+    .container-hospital
     {
         width: 70%;
     }
@@ -221,7 +221,7 @@
         margin-bottom: 20px;
     }
 
-    .footer
+    .footer-hospital
     {
         margin-top: 20px;
         transform: translateX(-7%);   

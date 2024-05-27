@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react' ;
 import { Navigation,Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import { OfferData } from './OfferData'; 
-
+import './OfferCarousel.css'
 
 function OfferCarousel() {
   return (
@@ -14,10 +14,10 @@ function OfferCarousel() {
         slidesPerView={3}
         pagination={{clickable: true}}
         centeredSlides={true}>
-            <div className='{carousel}'>
+            <div className='carousel'>
                 {OfferData?.map((OfferData)=>(
                     <SwiperSlide key={OfferData.id}>
-                        <img className='{slide}' src={OfferData.image} alt='Offers' />
+                        <img className='slide' src={OfferData.image} alt='Offers' />
                     </SwiperSlide>
                 ))}
             </div>

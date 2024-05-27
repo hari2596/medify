@@ -8,12 +8,12 @@
     cursor: pointer;
 }
 
-.left
+.leftNavigation
 {
     left:0;
 }
 
-.right
+.rightNavigation
 {
     right:0;
 }

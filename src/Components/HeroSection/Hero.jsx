@@ -1,6 +1,6 @@
 import React from "react";
 import heroimage from "../../Assets/heroimage.png";
-import  "./Hero.module.css";
+import  "./Hero.css";
 import Searchbox from "../Searchbox/Searchbox";
 
 function Hero() {

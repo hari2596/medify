@@ -49,11 +49,11 @@ const HospitalDetail = ({ data, index, setCurrent, type }) => {
     };
 
     return (
-        <div className="container">
+        <div className="container-hospital">
             <img src={medcentre} alt="hospital" />
             
             <div className="wrapper">
-                <div className="content">
+                <div className="content-hospital">
                     <h4>{type === 'bookings' ? data.name : data["Hospital Name"]}</h4>
                     <h6>{type === 'bookings' ? data.location : `${data.City}, ${data.State}`}</h6>
                     <p>Smilessence Center for Advanced Dentistry + 1</p>
@@ -70,12 +70,12 @@ const HospitalDetail = ({ data, index, setCurrent, type }) => {
                 </div>
             
                 {type === 'bookings' ?
-                <div className="footerSlots">
+                <div className="footerSlots-hospital">
                     <span>{data.time}</span>
                     <span>{data.date}</span>
                 </div>
                 :
-                <div className="footer">
+                <div className="footer-hospital">
                     <span>Available Today</span>
                     <button onClick={handleClick}>Book FREE Center Visit</button>
                 </div>}
