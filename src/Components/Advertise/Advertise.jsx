@@ -1,6 +1,6 @@
 import  './Advertise.css';
 
-const Ad = () =>
+const Advertise = () =>
 {
     return(
         <div className='container'>
@@ -13,4 +13,4 @@ const Ad = () =>
     )
 }
 
-export default Ad
+export default Advertise ;
