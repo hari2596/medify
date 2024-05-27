@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSwiper } from "swiper/react";
-import { ReactComponent as RightArrow } from '../../assets/rightarrow.svg';
+import { ReactComponent as RightArrow } from '../../Assets/rightarrow.svg';
 import './Navigation.css';  // Update the import to the plain CSS file
 
 const RightNavigation = () => {

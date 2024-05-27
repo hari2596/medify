@@ -1,0 +1,308 @@
+.container
+{
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    padding: 9vw;
+    height: 450px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.phone1, .phone2
+{
+    position: absolute;
+}
+
+.phone1
+{
+    top:90px;
+    z-index: 100;
+}
+
+.phone2
+{
+    left: -140px;
+    top:-5px;
+}
+
+.phone1, .phone2
+{
+    position: relative;
+}
+
+.phone1 img, .phone2 img
+{
+    position: absolute;
+}
+
+.phone2>img:first-child
+{
+    height: 450px;
+    width: 280px;
+}
+
+.phone2>img:last-child
+{
+    top: 38px;
+    left: 10px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 412px;
+    width: 264px;
+}
+
+.phone1>img:first-child
+{
+    height: 355px;
+    width: 240px;
+}
+
+.phone1>img:last-child
+{
+    top: 25px;
+    left: 6px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 330px;
+    width: 229px;
+}
+
+.content
+{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.content>p
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #414146;
+}
+
+.contentheader
+{
+    font-size: 48px;
+    font-weight: 600;
+    width: 70%;
+    position:relative;
+}
+
+.contentheader>h1
+{
+    text-align: left;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.contentheader>h1>span
+{
+    color: var(--secondary-color);
+}
+
+.contentheader>img
+{
+    position: absolute;
+    left: -80px;
+    top: 50px;
+}
+
+.sms
+{
+    display: flex;
+}
+
+.smsinner
+{
+    width: 200px;
+}
+
+.smsinner>p
+{
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #FAFBFE;
+    display: block;
+    border-right: 1px solid #B4B4BE;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.smsinner>input
+{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #FAFBFE;
+}
+
+.smsinner
+{
+    display: flex;
+    width: 450px;
+}
+
+.smswrapper>button
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 40px;
+    padding: 10px;
+    width: 80px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+}
+
+.app
+{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.app>img
+{
+    width: 180px;
+    height: 50px;
+}
+
+@media screen and (max-width:1220px)
+{
+    .phone2
+    {
+        margin-top: 40px;
+        height: 60vh;
+    }
+
+    .phone1
+    {
+        top:16vh;
+    }
+
+    .container
+    {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width:820px)
+{
+    .content
+    {
+        width: 70%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .smswrapper>button
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .content
+    {
+        width: 60%;
+    }
+
+    .smswrapper
+    {
+        width: 80vw;
+    }
+
+    .smswrapper>button
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .app
+    {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .smsinner
+    {
+        width: 80vw;
+    }
+
+    .phone1,.phone2
+    {
+        display: none;
+    }
+
+    /* .phone2
+    {
+        height: 60vh;
+    }
+
+    .phone1
+    {
+        top: 50px;
+        left: -20px;
+    }
+
+    .phone2
+    {
+        top: 90px;
+        z-index: 100;
+    }
+
+    .phone2>img:first-child
+    {
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .phone1>img:first-child
+    {
+        height: 40vh;
+        width: 40vw;   
+    }
+
+    .phone1>img:last-child
+    {
+        top: 15px;
+        height: calc(40vh - 15px);
+        width: calc(40vw - 10px);
+    }
+
+    .phone2>img:last-child
+    {
+        left: 5px;
+        top:15px;
+        height: calc(30vh - 15px);
+        width: calc(30vw - 8px);
+    } */
+}

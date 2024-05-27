@@ -1,4 +1,4 @@
-import { MorningSlot, AfternoonSlot, EveningSlot, dates } from './SlotData'
+import { MorningSlot, AfternoonSlot, EveningSlot, dates  } from './SlotData'
 import BookingCarousel from '../BookingCarousel/BookingCarousel';
 import  './SlotBooking.css'
 import Slots from '../Slots/Slots';
